@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #121212;
+  align-items: center;
+}
+.image {
+  max-width: 340px;
+  height: 30%;
+  margin-top: 2%;
+}
+h1 {
+  color: aliceblue;
+  font-size: 34px;
+  font-weight: bold;
+  margin: 20px auto;
+}
+.categorias {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 12%;
+}
+
+.button-categoria {
+  background: #ffffff;
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 60px 0;
+  color: #000;
+}
+.gerar-frases {
+  height: 30px;
+  width: 120px;
+  background: #1fa4db;
+  border: none;
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+.frases {
+  width: 340px;
+  background-color: #fafafa;
+  border-radius: 5px;
+  text-align: center;
+  padding: 14px 22px;
+  line-height: 150%;
+  font-style: italic;
+  color: #dd7b22;
+  line-height: 150%;
+}
